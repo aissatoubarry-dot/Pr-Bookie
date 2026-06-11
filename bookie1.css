@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600&family=Space+Grotesk:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF5F7;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100vw;
+    height: 100vh;
+    font-family: "poppins", sans-serif;
+    /* display: none; */
+}
+
+.inpA,.btnConnecter{
+    width: 574px;
+    height: 73px;
+    border-radius: 14px;
+}
+.inpA{
+    padding: 20px;
+    background-color:#FFF5F7 ;
+    border: 1px solid #E2D2D2;
+    font-size: 24px;
+
+}
+.inpA::placeholder {
+    color: #E6E0E0;
+}
+
+.bookie1{
+    color: #FF7DAE;
+    font-size: 64px
+}
+.btnConnecter{
+     color: #FF7DAE;
+     font-size: 32px;
+     border: 1px solid #FF7DAE ;
+     background-color:#FFF5F7 ;
+     margin-left: 4px;
+}
+.connexion{
+    font-size: 28px;
+}
+
+.span2{
+    color: #FF7DAE;
+}
+.imgLivre1{
+    width: 50px;
+    height: 48px;
+    padding-top: 5px;
+}
+.pasCompte{
+    font-size: 24px;
+}
